@@ -92,7 +92,7 @@
     padding: 3px;
     margin-left: 50px;
     width: 300px;
-    height: 270px;
+    height: 300px;
 }
 
 div .card-header{
@@ -174,6 +174,10 @@ body{
     background-repeat: no-repeat;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 header.header{
     grid-area: "header";
 }
@@ -226,3 +230,219 @@ span.icons, span.cop{
 
 
 
+
+
+/*responsividade*/
+
+@media (max-width: 575.98px) { 
+    .quemSomos-text{
+        width: 90%;
+        font-size: 1em;
+        font-weight: normal;
+    }
+    .studio{
+        width: 100%;
+    }
+    .contato h2{
+        font-size: 1.5em;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+
+    .images-tattoo img{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        
+    }
+    .img-card{
+        width: 80%;
+    }
+
+    .tatuadores img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .col-md-4 .info, .col-md-6 .info{
+        width: 80%;
+        margin-left: 10%;
+    } 
+    .info p{
+        font-weight: normal;
+        font-size: 1em;
+    }
+    .col-md-6 .tatuadores{
+        margin-left: 0;
+    }
+    .images-desenho img, .images-grafite img, .images-quadro img{
+        width: 45%;
+        height: 45%;
+        margin-left: 2.5%;
+        padding: 3px;
+
+    }
+    
+    
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .quemSomos-text{
+        width: 90%;
+        font-size: 1em;
+        font-weight: normal;
+    }
+    .studio{
+        width: 100%;
+    }
+    .contato h2{
+        font-size: 1.7em;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+
+    .images-tattoo img{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        
+    }
+    .img-card{
+        width: 80%;
+    }
+
+    .tatuadores img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .col-md-4 .info, .col-md-6 .info{
+        width: 80%;
+        margin-left: 10%;
+    } 
+    .info p{
+        font-weight: normal;
+        font-size: 1em;
+    }
+    .col-md-6 .tatuadores{
+        margin-left: 0;
+    }
+    .images-desenho img, .images-grafite img, .images-quadro img{
+        width: 43%;
+        height: 43%;
+        margin-left: 5%;
+        padding: 3px;
+    }
+    .images-quadro img{
+        width: 270px;
+        height: 270px;
+        width: 43%;
+    }
+
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .quemSomos-text{
+        width: 90%;
+        font-size: 1em;
+        font-weight: normal;
+    }
+    .studio{
+        width: 100%;
+    }
+    .contato h2{
+        font-size: 1.5em;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+
+    .images-tattoo img{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        
+    }
+    .img-card{
+        width: 80%;
+    }
+    .tatuadores {
+        padding: 2px;
+    }
+    .col-md-4 .info, .col-md-6 .info{
+        width: 100%;
+    } 
+    .info p{
+        font-weight: normal;
+        font-size: 1em;
+    }
+
+    .col-md-6 .tatuadores{
+        margin-left: 0;
+    }
+    .images-desenho img, .images-grafite img, .images-quadro img{
+        width: 43%;
+        height: 43%;
+        margin-left: 5%;
+        padding: 3px;
+    }
+    .images-quadro img{
+        width: 270px;
+        height: 270px;
+        width: 43%;
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+
+.quemSomos-text{
+    width: 90%;
+    font-size: 1em;
+    font-weight: normal;
+}
+.studio{
+    width: 90%;
+}
+.contato h2{
+    font-size: 2em;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.images-tattoo img{
+
+    margin-left: 10%;
+    
+}
+.img-card{
+    width: 40%;
+}
+
+.col-md-6 .tatuadores img, .col-md-6 .info{
+    margin-left: 10%;
+}
+
+.info p{
+    font-weight: normal;
+    font-size: 1em;
+}
+.col-md-6 .tatuadores{
+    margin-left: 0;
+}
+.images-desenho img, .images-grafite img, .images-quadro img{
+    margin-left: 2.5%;
+} 
+
+}
+
+@media (min-width: 1200px) {   
+
+
+
+}
