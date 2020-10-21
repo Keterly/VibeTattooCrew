@@ -1,4 +1,3 @@
-
 /*style header*/
 .navbar{
     background-color: #E9D403;
@@ -253,22 +252,22 @@ span.icons, span.cop{
     }
 
     .images-tattoo img{
-        width: 40%;
-        height: 40%;
-        margin-left: 5%;
+        width: 45%;
+        height: 45%;
+        margin-left: 3%;
         
     }
     .img-card{
-        width: 50%;
+        width: 70%;
     }
 
     .tatuadores img{
-        width: 50%;
-        margin-left: 25%;
+        width: 70%;
+        margin-left: 15%;
     }
     .col-md-4 .info, .col-md-6 .info{
-        width: 50%;
-        margin-left: 25%;
+        width: 70%;
+        margin-left: 15%;
     } 
     .info p{
         font-weight: normal;
