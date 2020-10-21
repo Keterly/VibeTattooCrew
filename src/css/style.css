@@ -252,13 +252,13 @@ span.icons, span.cop{
     }
 
     .images-tattoo img{
-        width: 80%;
-        height: 80%;
-        margin-left: 10%;
+        width: 40%;
+        height: 40%;
+        margin-left: 5%;
         
     }
     .img-card{
-        width: 80%;
+        width: 50%;
     }
 
     .tatuadores img{
@@ -306,13 +306,12 @@ span.icons, span.cop{
     }
 
     .images-tattoo img{
-        width: 80%;
-        height: 80%;
-        margin-left: 10%;
-        
+        width: 40%;
+        height: 40%;
+        margin-left: 5%;    
     }
     .img-card{
-        width: 80%;
+        width: 50%;
     }
 
     .tatuadores img{
@@ -362,16 +361,19 @@ span.icons, span.cop{
     }
 
     .images-tattoo img{
-        width: 80%;
-        height: 80%;
-        margin-left: 10%;
+        width: 40%;
+        height: 40%;
+        margin-left: 5%;
         
     }
     .img-card{
-        width: 80%;
+        width: 40%;
     }
     .tatuadores {
         padding: 2px;
+    }
+    .tatuadores img{
+        width: 250px;
     }
     .col-md-4 .info, .col-md-6 .info{
         width: 100%;
@@ -416,7 +418,8 @@ h1{
 }
 
 .images-tattoo img{
-
+    width: 35%;
+    height: 35%;
     margin-left: 10%;
     
 }
@@ -438,11 +441,5 @@ h1{
 .images-desenho img, .images-grafite img, .images-quadro img{
     margin-left: 2.5%;
 } 
-
-}
-
-@media (min-width: 1200px) {   
-
-
 
 }
